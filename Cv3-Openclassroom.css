@@ -1,0 +1,90 @@
+@font-face {
+	font-family: "SF_Arch_Rival-webfont";
+	src:  	url('polices/SF_Arch_Rival-webfont.eot') format('eot'),
+			url('polices/SF_Arch_Rival-webfont.woff') format('woff'),
+			url('polices/SF_Arch_Rival-webfont.ttf') format('ttf'),
+			url('polices/SF_Arch_Rival-webfont.svg') format('svg');
+			}
+body{
+    font-family:SF_Arch_Rival-webfont, Verdana ;
+    background-color:White;
+	background-image:url(images/geometry2.png);
+	padding:0;
+    margin:2%;
+	
+}
+
+header {
+	text-align:center;
+	color: #00917E;
+	}
+
+.liseret{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	float: left;
+	width: 75px;
+	height: 100%;
+	background-color: #FFF599;
+	background-image:url(images/footer_lodyas.png);
+	display:inline-block;
+}
+	
+.colonne1{
+     width:33%;
+	
+	height:280px;
+    display:inline-block;
+    vertical-align:top;
+    box-sizing:border-box;
+    padding-left:20px;
+    padding-right:20px;
+    line-height:20px;
+}
+
+.colonne2{
+    width:33%;
+	
+	height:280px;
+    display:inline-block;
+    vertical-align:top;
+    box-sizing:border-box;
+    padding-left:20px;
+    padding-right:20px;
+    line-height:20px;
+}
+
+.colonne3{
+    width:33%;
+	
+	height:280px;
+    display:inline-block;
+    vertical-align:top;
+    box-sizing:border-box;
+    padding-left:20px;
+    padding-right:20px;
+    line-height:20px;
+}
+
+footer{
+	<!-- plus tard -->
+}
+
+.contacts {
+	border: 3px solid #00917E;
+	padding: 10px;
+	width: 480px;
+}
+
+.maps {
+	<!-- plus tard -->
+}
+
+h3{
+	color: #006759;
+	}
+	
+h1 {
+	text-shadow: 2px 2px 4px black;
+	}
